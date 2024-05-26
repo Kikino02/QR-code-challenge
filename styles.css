@@ -35,7 +35,7 @@ body {
   font-weight: 700;
 }
 .main__container .main__description {
-  padding: 24px;
+  padding: 20px;
   color: hsl(220, 15%, 55%);
   max-width: 30ch;
   font-size: 15px;
