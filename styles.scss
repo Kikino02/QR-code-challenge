@@ -5,6 +5,7 @@ $light-grey: hsl(212, 45%, 89%);
 $blue-grayish: hsl(220, 15%, 55%);
 $dark-blue: hsl(218, 44%, 22%);
 $p-fontsize: 15px;
+$h1-fontsize: 22px;
 
 *{
     margin: 0;
@@ -21,7 +22,7 @@ body{
     height: 100vh;
 }
 
-.container{
+.main__container{
     background-color: $white;
     width: 100%;
     max-width: 320px;
@@ -29,17 +30,19 @@ body{
     border-radius: 20px;
     text-align: center;
 
-    img{
+    .main__img{
         width: 90%;
         width: 288px;
         height: 288px;
         border-radius: 10px;
         margin-bottom: 24px;
     }
-    h2{
+    .main__title{
         color: $dark-blue;
+        font-size: $h1-fontsize;
+        font-weight: 700;
     }
-    p{
+    .main__description{
         padding: 24px;
         color: $blue-grayish;
         max-width: 30ch;
